@@ -11,3 +11,10 @@ Para usar esse repositório os seguintes conceitos são fundamentais:
 
 Para maiores informações acesse os seguintes endereços:
 [Comandos Básicos](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+
+---
+# Ferramentas
+* [Git for windows](https://gitforwindows.org/)
+* [Subline](https://www.sublimetext.com/2)
+
+---
