@@ -12,8 +12,8 @@ Material disponível no link
 
 
 * Acesse o terminal do Git for Windows e clone o repositório. Para isso, é necessário acessar a URL do GitHub e pegar o endereço do repositório. No caso, algo como:
-
-	$ git clone https://github.com/aceiro/multimidia_2018.git
+		
+		$ git clone https://github.com/aceiro/multimidia_2018.git
 
 
 * Crie uma pasta no dentro do repositório que deverá ter a seguinte estrutura:
