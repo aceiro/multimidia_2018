@@ -5,7 +5,7 @@ Notas de aula sobre Ferramentas de Desenvolvimento para Web
 * Subline
 * Git
 
-Material disponível no link
+Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula03/aula-3.pdf]
 
 -- 
 # Atividade - Git
