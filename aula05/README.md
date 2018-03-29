@@ -17,9 +17,9 @@ CSS é uma das principais linguagens da open web e tem sido padronizado pela Esp
 
 # Links
 
-Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula05/aula-5.pdf]
-(HTML)[https://developer.mozilla.org/pt-BR/docs/Glossario/HTML#Conceito_e_sintaxe]
-(CSS)[https://developer.mozilla.org/pt-BR/docs/Glossario/CSS]
+* Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula05/aula-5.pdf]
+* (HTML)[https://developer.mozilla.org/pt-BR/docs/Glossario/HTML#Conceito_e_sintaxe]
+* (CSS)[https://developer.mozilla.org/pt-BR/docs/Glossario/CSS]
 
 -- 
 # Atividade - HTML + CSS + Git
