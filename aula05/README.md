@@ -1,15 +1,25 @@
 # Aula 5
 
-Notas de aula sobre Básico de CSS
+Notas de aula sobre HTML e Básico de CSS
+
+Na aula anterior (aula 4) apresentamos os conceitos básicos de HTML (HyperText Markup Language) que é uma linguagem descritiva que especifica a estrutura de uma página web.
+
 
 CSS (Cascading Style Sheets ou em português: folhas de estilos em cascata) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, no discurso ou em outras mídias.
 
 CSS é uma das principais linguagens da open web e tem sido padronizado pela Especificação da W3C. Desenvolvido em níveis, o CSS1 está atualmente obsoleto, já o CSS2.1 é uma recomendação e o CSS3, dividido em pequenos módulos, está agora progredindo para a sua padronização.
 
+
+![Funcionamento do CSS/DOM](https://mdn.mozillademos.org/files/11781/rendering.svg)
+
 * Definição geral de CSS
 * Exemplo básico
 
+# Links
+
 Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula05/aula-5.pdf]
+(HTML)[https://developer.mozilla.org/pt-BR/docs/Glossario/HTML#Conceito_e_sintaxe]
+(CSS)[https://developer.mozilla.org/pt-BR/docs/Glossario/CSS]
 
 -- 
 # Atividade - HTML + CSS + Git
