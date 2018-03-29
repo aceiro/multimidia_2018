@@ -26,6 +26,7 @@ CSS é uma das principais linguagens da open web e tem sido padronizado pela Esp
 
 Para essa aula utilize o material de apoio para criar o diretório dentro da pasta alunos e também a página HTML de exemplo. 
 Sempre faça as atividades dentro do seu repositório e certifique-se de estar sempre atualizado. Para isso, use:
+	
 	$ cd ~/Workspace/Git/multimidia_2018
 	$ git pull
 	$ pwd
@@ -40,7 +41,7 @@ Sempre faça as atividades dentro do seu repositório e certifique-se de estar s
 	$ git push
 	$ git pull
 
-(*) sempre é interessante verificar com o amigo se foi feito ou não o commit para a master. Atualize sempre o seu repositório local com git pull
+sempre é interessante verificar com o amigo se foi feito ou não o commit para a master. Atualize sempre o seu repositório local com git pull
 
 # Comandos Básicos - Linux (Terminal Bash)
 	$ cd [diretorio] 		# entrar em um diretório
