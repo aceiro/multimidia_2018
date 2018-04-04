@@ -1,10 +1,10 @@
 #playground{
 	background: #e0ffe0;
 	width: 400px;
-	height: 200px;
+	height:200px;
 	position: relative;
 	overflow: hidden;
-}
+} 
 #ball {
 	background: #fbb;
 	position: absolute;
@@ -16,8 +16,8 @@
 }
 .paddle {
 	/*Adicione a cor para o paddle */
-	background: #FF0040;
-	
+	background: #2a23e0;
+
 	/*Ajuste o posicionamento */
 	left: 50px;
 	top: 70px;
@@ -27,6 +27,7 @@
 }
 #paddleB {
 	left: 320px;
-	background: #088A08;
+	background: #e0232c;
 }
-/*Adicone o código para o paddleA*/
+
+/*Adicione o código para o paddleA */
