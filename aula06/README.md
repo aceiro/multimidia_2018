@@ -13,7 +13,7 @@ JavaScript é uma linguagem de programação que permite a você criar conteúdo
 * Para essa aula use os exemplos e links abaixo
 
 # Links
-
+* Repositório MDN - https://github.com/mdn/learning-area-pt-br
 * Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula06/aula-6.pdf]
 * JavaScript - (HTML) https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript
  
