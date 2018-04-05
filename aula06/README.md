@@ -10,12 +10,12 @@ JavaScript é uma linguagem de programação que permite a você criar conteúdo
 
 * Definição geral de JavaScript
 * Exemplo básico
+* Para essa aula use os exemplos e links abaixo
 
 # Links
 
 * Material disponível no link - (PDF)[https://github.com/aceiro/multimidia_2018/blob/master/aula06/aula-6.pdf]
-* JavaScript - https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript
-
--- 
+* JavaScript - (HTML) https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript
+ 
 	
 	
