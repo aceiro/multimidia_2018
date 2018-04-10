@@ -26,6 +26,25 @@
   height: 70px;
 }
 
+.GameTitle {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  left: 430px;
+  top: 130px;
+  position: absolute;
+  color: rgba(0, 0, 255, 0.8);
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgba(255, 0, 0, 8);
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.GameTitle:hover {
+  color: rgba(255, 0, 0, 0.8);
+  border-color: rgba(0, 0, 255, 0.8);
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
 .score {
   font-family: 'helvetica neue', helvetica, sans-serif;
   letter-spacing: 1px;
@@ -68,4 +87,30 @@
   background-color: rgba(0, 0, 255, 0.5);
   border: 1px solid;
   left: 320px;
+}
+
+.painel {
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: rgba(0, 0, 255, 0.4);
+  border: 5px solid;
+  border-color: rgba(255, 0, 0, 0.7);
+  border-top: 0px solid;
+  border-bottom: 0px solid;
+  border-right: 0px solid;
+}
+
+.opts {
+  cursor: pointer;
+  right: 0px;
+}
+
+.opts:hover {
+  border: 2px solid;
+  border-right: 0px solid;
+  border-left: 0px solid;
+  background-color: rgba(255, 0, 0, 0.5);
+  border-color: rgba(0, 0, 255, 0.7);
 }
