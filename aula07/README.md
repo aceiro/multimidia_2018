@@ -10,3 +10,9 @@ o conceito de `class` para isso use uma definição de classe diferente para cad
   * Ano de nascimento
   * Idade
   * Para esse exemplo, use as rotinas `console.log(...); prompt(...);` Também para exibir os dados no corpo da página use `document.querySelector`
+  
+  # ATENÇÃO
+  
+  Para todos os exercícios adicione no git conforme temos visto em sala de aula. Para isso, faça
+  * Crie uma pasta com o seu RA e Número seguindo o padrão /aula07/ra[numero]
+  * Adicione os arquivos com o seguinte formato: `questao1.txt / questao2.html / questao3.html / questao4.html`
