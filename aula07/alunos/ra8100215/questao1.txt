@@ -1,0 +1,1 @@
+Explique os principais conceitos sobre arquitetura de computadores, redes e web visto em sala de aula.
