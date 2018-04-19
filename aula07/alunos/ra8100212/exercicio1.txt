@@ -1,0 +1,2 @@
+
+1-A arquitetura de um computador é formada por três partes UCP, memória principal e controladores. Servidores web é um software responsavél por aceitar pedidos em http de clientes geralmente navegadores, e serviços com respostas em http, incluindo opcionalmente dados, que geralmente são páginas web.A rede é uma telecomunicação digital que permite que compartilhemos recursos. Em uma rede de computadores,os dispositivos de computação em rede trocam dados entre si usando um link de dados.As conexões podem ser estabeleciadas usando midia de cabo ou midia sem fio.
