@@ -1,0 +1,3 @@
+Explique os principais conceitos sobre arquitetura de computadores, redes e web visto em sala de aula:
+O termo arquitetura é principalmente utilizado na construção e decoração de edificações. Ele diz respeito à forma e a estrutura de uma construção. O termo refere-se à arte ou a técnica de projetar e edificar o ambiente habitado pelo ser humano. Na computação o termo foi adaptado para denominar a técnica (talvez até a arte também) de projetar e construir computadores.
+O termo Redes, eh a forma de comunicacao cliente servidor por meios de protocolos TCP/IP e por meios de Browsers como por exemplo: Internet Explorer, Firefox, GoogleChrome e outros que sao os interpretadores de codigos HTML surgindos assim a "Paginas de Internet."
