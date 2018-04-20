@@ -1,0 +1,18 @@
+ ARQUITERURA DE COMPUTADOR:
+    Os conceitos gerais de arquitetura de computador 
+é formado pelo: UCP - MEMORIA PRINCIPAL - CONTROLADORES (E/S)
+    UCP: Unidade central de processamento, executa operações
+sobre dados, como adiçao e subtraçao.
+    MEMORIA PRINCIPAL: armazena dados, que
+por sua vez, é responsavel por tranferir esses dados atravez
+de barramentos que interligam os componentes.
+    CONTROLADORES E (E/S): dispositivos de E/S (entrada e saida)
+faz a comunicação com o usiario, e, a comuniçao dos dispositivos 
+E/S se dá pelos controladores.
+    
+ REDES E WEB:
+    Consiste em uma ligaçao entre usuario e servidor sendo local/local
+e local/servidor. 
+    A forma simples de como isso funciona é que um usuario faz um
+requerimento, que chega no servidor e por sua vez ele da uma resposta 
+para o cliente. E isso acontece constantemente. 

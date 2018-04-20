@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exercicio4</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<p class="N" id="N">Nome: </p> 
+		<style>
+			#N {
+				text-transform: uppercase;
+				color: blue
+
+			}
+		</style>
+		
+		<script>
+		var para = document.querySelector('.N');
+			
+		para.addEventListener('click', atualizarNome);
+
+      	function atualizarNome() {
+        var nome = prompt('Insira um novo nome');
+       	para.textContent = 'Nome: ' + nome;
+        }
+		</script>
+
+ 		<p class="A" id="A">Ano de nascimento: </p>
+ 
+		<p class="I" id="I">Idade: </p>
+		<style>
+			#A {
+				text-transform: uppercase;
+				color: blue
+			}
+			 #I {
+			 	text-transform: uppercase;
+			 	color: blue
+			 }
+		</style>
+
+		<script>
+ 			var nasc = document.querySelector('.A');
+
+ 			nasc.addEventListener('click', dataNascimento);
+
+ 			function dataNascimento() {
+ 				var nascimento = prompt('Insira a data de nascimento');
+ 				nasc.textContent = 'Ano de nascimento: ' + nascimento;
+
+ 				var resultado =  2018 - nascimento;
+ 			 	console.log(resultado);
+
+ 				var idade = document.querySelector(".I"); 
+   				idade.textContent = "Idade: " + resultado;
+ 			}
+
+		</script>
+
+
+		
+	</body>
+</html>
