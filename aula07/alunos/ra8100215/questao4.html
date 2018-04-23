@@ -7,33 +7,79 @@
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Questão 3</title>
+    <title>Questão 4</title>
 
 	    <style type="text/css">
 		
-		    #p1 {
-		    	color: green;
-			}
-			#p2 {
-				color: red;
-			}
-			#p3 {
-				color: blue;
-			}
+	      p {
+	        font-family: Arial;
+	        font-size: 26px;
+	        letter-spacing: 6px;
+	        text-transform: uppercase;
+	        text-align: left;
+	        border: 10px solid rgba(200,200,255,0.5);
+	        background: rgba(95,158,160,0.5);
+	        color: rgba(0,0,0,1.5);
+	        border-radius: 16px;
+	        padding: 20px 40px;
+	        display: inline-flex;
+	        /*visibility: visible; */
+	        /* Propriedade visibility utilizando modo hidden (não mostra nada na tela) */
+	      }
+
+	      div {
+
+	      	text-align: center;
+	      	/* Alinhando Texto no meio da Tela (Horizontalmente) */
+	      }
 
 		</style>
 
   </head>
   <body>
-  	<div>
+  	<div class = 'div1' id = "div1" >
 	   	
-	   	<p id = "p1">Mensagem 1: Esta é a mensagem 1</p>
-	    <p id = "p2">Mensagem 2: Esta é a mensagem 2</p>
-	    <p id = "p3">Mensagem 3: Esta é a mensagem 3</p>
+	   	<br>
+	   	<p class = 'p1' id = 'p1'></p>
+	   	<!-- Qual é o seu nome (completo) ? -->
+	   	<br>
+	   	<br>
+	    <p class = 'p2' id = 'p2'></p>
+	    <!-- Qual foi o Ano de Nascimento (formato: aaaa) ? -->
+	    <br>
+	    <br>
+	    <p class = 'p3' id = 'p3'></p>
+	    <!-- Olha Só!!! A sua Idade é: -->
 
 	</div>
+	
+	<script type = "text/javascript">
+		
+		
+		window.onload = function(){
+
+			//alert("Olá Mundo!!!");
+			//console.log("Olá Mundo!!!");
+			//testando se código abre ao iniciar a Página
+			
+			var nome = prompt("Qual é o seu Nome?");
+			var anoNasc = prompt("Qual foi o Ano que você Nasceu?");
+			var idade = 2018 - anoNasc;
+			//alert(idade);
+
+			//Tentativa de habilitar propriedade visible (não deu certo)
+			//var mDiv = document.getElementsById('div');
+			//mDiv.style.visibility: visible;
+			
+			p1.textContent = "Seu Nome é: " + nome;
+			p2.textContent = "Seu Ano de Nascimento é: " + anoNasc;
+			p3.textContent = "Baseado em seu ano de Nascimento, sua idade é: " + idade + " Anos";
+		}
+
+	</script>
+
   </body>
 </html>
