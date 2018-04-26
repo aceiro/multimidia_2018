@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML>
+
+<html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <title>Exercicio 04</title>
+        <style>
+
+          
+            h1{
+              font-family: 'helvetica neue', helvetica, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(0,0,200,0.6);
+            background: rgba(0,0,200,0.3);
+            color: rgba(0,0,200,0.6);
+            box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+
+            }
+            p{
+            font-family: 'helvetica neue', helvetica, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgba(0,0,200,0.6);
+            background: rgba(0,0,200,0.3);
+            color: rgba(0,0,200,0.6);
+            box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+          }
+
+        </style>
+      </head>
+    <body>
+      <h1>EXERCICIO 04</h1>
+      <p></p>
+    
+
+      <script>
+        var nome = prompt('qual e o seu nome');
+        var anoNasc = prompt('Qual seu ano de nascimento?');
+        var idade = 2018-anoNasc;
+        
+        //Apos responder as perguntas no "prompt", a mesagem ira aparecer na caixa de dialogo do navegdor;//
+        alert(nome + ' você nasceu em '+anoNasc+ ' e sua idade é  '+idade + ' anos.'); 
+       
+        //A mensagem ira aparcer no corpo da pagina;//
+        var contatena = document.querySelector ('P');
+        contatena.textContent = nome + ' você nasceu em '+anoNasc+ ' e sua idade é  '+idade + ' anos.';
+        
+        console.log(nome + ' você nasceu em '+anoNasc+ ' e sua idade é  '+idade + ' anos.'); 
+        //A mesagem ira aparecer no console da pagina;//
+        
+      </script>
+    </body>
+</html>
