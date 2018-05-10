@@ -1,0 +1,52 @@
+#game{
+  background: #000;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#playground{
+  background: #e0ffe0;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+#ball {
+  background: #808080;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  top: 50px;
+  border-radius: 10px;
+}
+.paddle {
+  background: #bbf;
+  left: 50px;
+  top: 70px;
+  position: absolute;
+  width: 30px;
+  height: 70px;
+}
+
+.scoreAcolor {
+color: #0000ff;
+}
+
+#paddleA {
+  background-color: #0000ff;
+  right: 320px;
+  top: 50px;
+}
+
+.scoreBcolor {
+  color: #ff0000;
+}
+
+#paddleB {
+  background-color: #ff0000;
+  left: 320px;
+  top: 100px;
+}

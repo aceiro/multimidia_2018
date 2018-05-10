@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Qual minha idade?</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script type="text/javascript" src=assets/js/idade.js></script>
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul class="options">
+        <li class="opts opt1"><a class="opts-a" href="index.html">Home</a></li>
+        <li class="opts opt2"><a class="opts-a" href="pingpong.html">PingPong</a></li>
+        <li class="opts opt2"><a class="opts-a" href="#">Idade</a></li>
+      </ul>
+    </div>
+    <div class="calcage">
+      <h2>Qual a minha idade?</h2>
+      <div class="resultdiv"></div>
+      <form id="form" action="index.html" method="post">
+        <p class="PrimNome">Qual seu nome?</p>
+        <input  id="Nome" type="text" name="nome" value="Nome"><br><br>
+        <p class="AnoNasc">Qual ano você nasceu?</p>
+        <input id="AnoNasc" type="number" name="anoEsc" value="1997"><br><br>
+        <p class="AnoEsc">Qual ano você esta?</p>
+        <input id="AnoAtual" type="number" name="anoAtual" value="2018"><br><br>
+        <p class="AnosTem">Você tem:</p>
+        <input id="Resultado" type="text" name="Result" value="Resultado"><br><br>
+        <button onclick="CalcIdade();" id="Calular" type="button" name="button">Calcular</button>
+      </form>
+    </div>
+  </body>
+</html>

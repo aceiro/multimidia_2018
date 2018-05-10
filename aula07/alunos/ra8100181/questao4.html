@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+
+function InserirNome(){
+var nome = prompt('Insira seu Nome')
+var idade = prompt('Insira sua idade');
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var anoNasc = year - idade;
+
+document.getElementById("AnoNasc").innerHTML = anoNasc;
+document.getElementById("Idade").innerHTML = idade;
+console.log(nome);
+console.log(anoNasc);
+console.log(idade);
+
+
+var nomeMaisculo = nome;
+nomeMaisculo = nomeMaisculo.toLowerCase().replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+console.log(nomeMaisculo);
+document.getElementById("Nome").innerHTML = nomeMaisculo;
+
+}
+ </script>  
+
+  <title>Questao4</title>
+  <br>
+  <div class="Nome">
+  <div class="Nome">Nome:<span id="Nome"></span></div>    
+  </div>
+  <br>
+  <div class="AnoNasc">
+  <div class="AnoNasc">Ano de nascimento:<span id="AnoNasc"></span></div>    
+  </div>
+  <br>
+  <div class="Idade">
+  <div class="Idade">Idade:<span id="Idade"></span></div>    
+  </div>
+  <br>
+  <div class="Botao">
+  <button id="CalcIdade" onclick="InserirNome();" type="button" name="button">Calcular</button>
+  </div>
+
+
+<body>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang+"en">
+	
+	<head>
+		<meta charset="uft-8">
+	</head>
+	<body>
+		<header>
+			<h1>EXERCICIO 02</h1>
+		</header>
+		<footer>
+			<p><h2>Esta é a primeira mensagem</h2></p>
+			<p><h3>Esta é a segunda mensagem</h3></p>
+			<p><h4>Esta é a terceira mensagem</h4></p>
+		</footer>
+	</body>
+</html>

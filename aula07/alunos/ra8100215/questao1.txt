@@ -1,0 +1,24 @@
+Explique os principais conceitos sobre arquitetura de computadores, redes e web visto em sala de aula.
+
+1 - Quanto a questão de Conceitos de Arquitetura de Computadores:
+	1.1 - Memória Principal (RAM - sigla em Ingês que quer dizer Memória de Acesso Ramdomico): que é a memória de acesso para leitura e escrita (temporária) com a função alocar os programas (isntruções - código dos programas e funções) que estão abertos no computador, aguardando algum comando para execução;
+	1.2 - Processador (CPU, que é a Unidade Central de Processamento), é o "cérebro" do Computador, onde são executados as funções e instruções lógicas, baseadas em dados de entrada que são processados, gerando saídas (tudo baseados em lógica matemática, e executando em baixo nível), resumindo, executa as instruções dos programas, mediante uma solicitação do programa, gerando uma saída da solicitação (resposta);
+	1.3 - Memória em Massa são um tipo de memória (memória mecânica) onde os dados são armazenados de forma definitiva (até que sejam apagados), e dizemos que são mídias de armazenamento em massa, pois podemos armazenar "n" dados de "n" tamanho (de acordo com a capacidade de armazenamento corrente). Nos dias atuais, temos  Discos Magnéticos (HDD), Memórias Flash (Pendrives e SSD), e Mídias como (BlueRay, DVD/DVR e CD/CDR);
+	1.4 Barramentos são as via de comunicação de baixo nível entre o hardware (usando a Placa mãe), onde o processador interage com a memória RAM, o módulo de controle de unidade de disco, conevrsa com o disco, e com a placa mãe, e por sua vez, com os dispositivos de I/O (Entrada e Saída);
+	1.5 I/O são os controladores de entrada e memória, que podem controlar teclado, mouse, placas de vídeos / Monitores, placas de sons / speaker, etc.
+
+2 - Quanto aos Conceitos de Sistemas:
+	2.1 Sistemas Operacionais (S.O.) são os sistemas "mestres", que com suas camadas/módulos de software controlam os hardware e dão suporte aos demais programas/aplicativos;
+	2.2 - Dentro do Sistema Operacional, está o Kernel (núcleo do SO), que tem como função básica, controlar o fluxo do hardware que está suportando todo o sistema.
+
+3 - Liguagens de Programação:
+	3.1 Linguagens de Baixo Nível: são as utilizadas para a programação dos dispositivos (hardware), onde são realizadas as programações de cada  ação de dispositivos (como funções de registradores de memória, tipo de partição de arquivo do HD, etc.) - Construção de Sistema Operacionais ou Sistemas Embarcados;
+	3.2 Linguagens de Alto Nível: são utilizadas para programação de softwares como aplicativos de celular, aplicativos desktops, etc;
+	3.3 - Linguagens Interpretadas: não necessitam de compildores, e são executadas e interpretadas por um programa (Ex.: JavaScript, onde se desenvolve a codificação em um editor de textos, e um navegador de internet faz a interpretação da liguagem (reinderização do código), exibindo os resultados nos próprio navegador);
+	3.4 - Liguagens Compiladas: literalmente, após a codificação em liguagem de alto nível, é necessário um compilador (um programa que transforma o código escrito em uma liguagem "humana" para liguagem de máquina "binários"), e após rodar o compilador, o mesmo verifica o código, reporta erros caso existam, e caso contrário, esteja tudo certo, gera um programa .exe ou .bin, que contem apenas instruções em liguagem de máquina (0110010011101).
+4 - Arquitetura da Internet
+	Resumidamente: Baseada na utilização de Protocolos de Comunicação como TCP/IP, HTTP/HTTPS, que são usado para transmissão / recepção de dados entre das Redes Locais - (LAN) por Computadores e/ou Dispositivos ligados a rede, como Switches, Smartphones, etc, com as Redes Externas (WAN, MAN, Internet), onde podem ser direcionadas para um Roteador, Modem, ou qualquer dispositivo que tenha uma conexão externa com um ISP, e desta forma, a comunicação se extende por cabeamento (linhas telefônicas ADSL/Cable Modem, fibra ótica, etc)chegando aos provedores onde estão os Servidores Web, indo até os Servidores DNS, localizando as informações/sites, e devolvendo ao solicitante, tudo isso usando os protocolos sitados acima (e mais alguns), utilizando as camadas de rede do sistema OSI ou TCP. Logo, nessa comunicação a linguagens utilizadas, do lado do cliente são o HTML5 / CSS / JavaScript.
+5 - Pensando em Web:
+	5.1 HTML5 - É a linguagem de Marcação de Página que utilizamos para escrever as tags que serão interpretadas pelos navegadores;
+	5.2 CCS3 - É a liguagem de formatação de estilo que serão aplicadas as tags HTML, e farão a formatação do estilo e layouts das páginas web;
+	5.3 - JS - JavaScript é a liguagem de programação do lado cliente (que também pode ser usada no lado servidor), onde são gerados os códigos para implementação de funções, para validar entradas de formulários, ou manipular as tags/formatos de estilos das páginas.

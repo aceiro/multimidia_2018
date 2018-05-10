@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .Verde{
+    color: green;
+    }
+    .Vermelho{
+    color: red;
+    }
+    .Azul{
+    color: blue;
+    }
+    </style>
+
+  <script>
+
+function InserirNome(){
+var nome = prompt('Insira seu Nome')
+var idade = prompt('Insira sua idade');
+
+
+
+}
+
+
+function CalcIdade (){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+
+var anoNasc = year - idade;
+alert("Voce Nasceu no ano   "+anoNasc);
+}
+
+
+
+  </script>  
+
+  <title>Lista Exercicio</title>
+  <p class="Verde">Verde</p>
+  <p class="Vermelho">Vermelho</p>
+  <p class="Azul">Azul</p>
+  <br>
+  <div class="Nome">
+  <div class="Nome">Nome:<span id="Nome"></span></div>    
+  </div>
+  <br>
+  <div class="AnoNasc">
+  <div class="AnoNasc">Ano de nascimento:<span id="AnoNasc"></span></div>    
+  </div>
+  <br>
+  <div class="Idade">
+  <div class="Idade">Idade:<span id="Idade"></span></div>    
+  </div>
+
+  <br>
+
+  <div class="Botao">
+  
+  <button id="CalcIdade" onclick="InserirNome();" type="button" name="button">Calcular</button>
+
+  </div>
+
+
+<body>
+
+</body>
+</html>

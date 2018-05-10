@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang+"en">
+	
+	<head>
+		<meta charset="uft-8">
+	</head>
+	<body>
+		<header>
+			<h1>EXERCICIO 03</h1>
+		</header>
+		<footer>
+			<style>
+				.rotulo {
+    			background-color: blue;
+    			color: black;
+    			padding: 10px;
+    			margin-left: auto;
+    			margin-right: auto;
+    			width: 6em}
+    			.rotulo1{
+    			background-color: green;;
+    			color:black;
+    			padding: 10px;
+    			margin-left: auto;
+    			margin-right: auto;
+    			width: 6em}
+    			.rotulo2{
+    			background-color: red;
+    			color: black;
+    			padding: 10px;
+    			margin-left: auto;
+    			margin-right: auto;
+    			width: 6em}
+    		</style>
+    				<h2 class="rotulo">BLUE</H2>
+    				<H2 CLASS="rotulo1">GREEN</H2>
+    				<H2 CLASS="rotulo2">RED</H2>
+
+
+
+			
+		</footer>
+	</body>
+</html>
