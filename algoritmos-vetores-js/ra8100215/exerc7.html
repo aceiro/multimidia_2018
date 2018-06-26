@@ -1,0 +1,75 @@
+<!--
+
+	7) Amplie o exercício 2 emitindo um relatório com todos os números pares que você leu.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lista_Exerc7_P2</title>
+
+	<style type="text/css">
+		
+		.pvalor{
+
+			color: #696969;
+			font-family: arial;
+			font-size: 22px;
+			text-align: center;
+
+		}
+
+		.pvalor2{
+
+			color: #DF013A;
+			font-family: arial;
+			font-size: 18px;
+			text-align: center;
+
+		}		
+
+
+	</style>
+
+</head>
+<body>
+
+	<p id="pvalor" class="pvalor">  </p>
+	<p id="pvalor2" class="pvalor2">  </p>
+
+	<script type="text/javascript">
+		
+		var num = 0;
+		var mnum = 0;
+		var snum = 0;
+		var i;
+
+		 var vetnum = new Array; //vetor para gravar números pares menores que 100
+		 var vetcont = 0; //contador para incrementar para ser utilizado dentro do vetor
+
+
+		for (var i = 1; i < 99; i++) {
+			
+			num = i;
+			mnum = (num % 2);
+
+			if (mnum == 0) {
+
+				snum = (snum + num);
+
+				vetnum[vetcont] = num;
+				vetcont = vetcont + 1;
+
+			}
+
+		}
+
+		pvalor.textContent = "A Somatória dos Números Pares (Abaixo) Menores que 100 é: " + snum;
+		pvalor2.textContent = "Os Números Pares Menores que 100 são: " + vetnum;
+
+	</script>
+
+</body>
+</html>

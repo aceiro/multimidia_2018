@@ -1,0 +1,92 @@
+<!--
+
+	9) Faça um algoritmo que determine qual o maior valor existente no vetor do exercício número 2.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lista_Exerc9_P2</title>
+
+	<style type="text/css">
+		
+		.pvalor{
+
+			color: #696969;
+			font-family: arial;
+			font-size: 26px;
+			text-align: center;
+
+		}
+
+		.pvalor2{
+
+			color: #DF013A;
+			font-family: arial;
+			font-size: 18px;
+			text-align: center;
+
+		}		
+
+		.pvalor3{
+
+			color: #0B173B;
+			font-family: arial;
+			font-size: 22px;
+			text-align: center;
+
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<p id="pvalor" class="pvalor">  </p>
+	<p id="pvalor2" class="pvalor2">  </p>
+	<p id="pvalor3" class="pvalor3"> </p>
+
+	<script type="text/javascript">
+		
+		var num = 0;
+		var mnum = 0;
+		var snum = 0;
+		var i;
+
+		var vetnum = new Array; //vetor para gravar números pares menores que 100
+		var vetcont = 0; //contador para incrementar para ser utilizado dentro do vetor
+
+		var vmaior;
+
+
+		for (var i = 1; i < 99; i++) {
+			
+			num = i;
+			mnum = (num % 2);
+
+			if (mnum == 0) {
+
+				snum = (snum + num);
+
+				vetnum[vetcont] = num;
+				vetcont = vetcont + 1;
+
+			}
+
+		}
+
+		 //Usando o Objeto Math e o Método min, nativo do JavaScript
+		 //No VisualG, ao algoritmo não tinha esta função, então usei um PARA, comparando
+		 //a variável vmaior com o valor do vetor vetnum.
+		vmaior = Math.max.apply(null, vetnum);
+
+		pvalor.textContent = "A Somatória dos Números Pares (Abaixo) Menores que 100 é: " + snum;
+		pvalor2.textContent = "Os Números Pares Menores que 100 são: " + vetnum;
+		pvalor3.textContent = "O Maior Número Par da Sequência (Diferente de 0) é: " + vmaior;
+
+	</script>
+
+</body>
+</html>

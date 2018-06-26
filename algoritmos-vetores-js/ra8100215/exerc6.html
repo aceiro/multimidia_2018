@@ -1,0 +1,52 @@
+<!--
+
+	6) Faça um algoritmo que leia, via teclado, 10 valores do tipo inteiro e os guarde na memória.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Lista_Exerc6_P2</title>
+
+	<style type="text/css">
+		
+		.pvalor{
+
+			color: #4682B4;
+			font-family: verdana;
+			font-size: 22px;
+			text-align: center;
+
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<p id="pvalor" class="pvalor">
+		
+	</p>
+
+	<script type="text/javascript">
+		
+		var valor = new Array;
+		//valor = 10;
+		var i;
+
+		for (var i = 0; i < 10; i++) {
+
+			valor[i] = prompt("Digite um número: ");
+
+		}
+		
+		pvalor.textContent = "Os valores Digitados foram: " + valor;
+		//alert("Os valores Digitados foram: " + valor);
+		console.log(valor)
+
+	</script>
+
+</body>
+</html>
